@@ -10,3 +10,4 @@ lightgbm
 joblib
 openpyxl
 reportlab
+xlsxwriter
