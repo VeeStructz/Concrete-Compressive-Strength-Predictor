@@ -13,7 +13,7 @@ scaler = joblib.load('scaler.pkl')
 
 # App title and styling
 st.set_page_config(page_title="Concrete Strength Predictor", page_icon="🧱")
-st.markdown("<h1 style='text-align: center; color: #4CAF50;'>🧱 Concrete Strength Predictor</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: #4CAF50;'>Concrete Compressive Strength Predictor</h1>", unsafe_allow_html=True)
 st.markdown("""This app predicts the **compressive strength** of concrete based on its mix composition. Adjust the values below to simulate different mix designs.""")
 st.markdown("---")
 
@@ -115,4 +115,5 @@ if st.button("Predict Compressive Strength"):
 
 # Footer
 st.markdown("---")
+
 st.markdown("<div style='text-align: center;'>© 2025 Ranti-Owoeye Victor | Powered by Machine Learning & Streamlit 🚀</div>", unsafe_allow_html=True)
